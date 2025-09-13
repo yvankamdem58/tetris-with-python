@@ -38,7 +38,8 @@ class Interface:
             'bleu'    : (40, 40, 240),
             'blanc'   : (255, 255, 255),
             'gris'   : (210, 210, 210),
-            'noir'    : (0, 0, 0)
+            'noir'    : (0, 0, 0),
+            'violet'   : (128,0,128)
         }
         # liste des noms de couleurs
         self.NOM_COULEUR = list(self.COULEUR.keys())
